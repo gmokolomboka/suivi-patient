@@ -10,6 +10,7 @@ Requirements
 
   * PHP 7.4.12 ou  higher;
   * PDO-MySQL PHP extension enabled;
+  * MySQL 8.0 ou plus
 
 Utilisation 
 ------------
@@ -18,7 +19,7 @@ Utilisation
 this command:
 
 ```bash
-$ symfony new --demo my_project
+$ git clone 
 ```
 
 Alternatively, you can use Composer:
