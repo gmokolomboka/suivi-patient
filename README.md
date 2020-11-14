@@ -27,22 +27,20 @@ $ composer install
 
 Usage
 -----
-
+```bash
 Créer la base de données dans mysql : 
 suivi-patient 
 modifier le contenu du fichier .env avec les valeurs : <USER_BDD_MYSQL>, <PASSWORD>, <DATABASE_NAME>
 DATABASE_URL=mysql://<USER_BDD_MYSQL>:<PASSWORD>@127.0.0.1:3306/<DATABASE_NAME>?serverVersion=8.0.22
-
+```
 ```bash
-$ symfony serve
+$ symfony server:start
 ```
 
 Accéder à l'application via l'url par défaut : (<https://localhost:8000).
 
-If you don't have the Symfony binary installed, run `php -S localhost:8000 -t public/`
-to use the built-in PHP web server or [configure a web server][3] like Nginx or
-Apache to run the application.
 
+Pour plus d'informations :
 
 [1]: https://symfony.com/doc/current/best_practices.html
 [2]: https://symfony.com/doc/current/reference/requirements.html
@@ -50,7 +48,7 @@ Apache to run the application.
 [4]: https://symfony.com/download
 
 
-La commande 
+La commande ci-dessous permet de connaître la version de cet qui a été installé sur votre machine locale:
 ```bash
 $ php bin/console about
 ```
