@@ -5,12 +5,13 @@ Exemple d'une application avec Symfony
 
 Cette application est basée sur  https://rojas.io/creating-a-website-with-symfony-4-part-1/
 
-Requirements
+Prérequis
 ------------
 
-  * PHP 7.4.12 ou  higher;
-  * PDO-MySQL PHP extension enabled;
-  * MySQL 8.0 ou plus
+  * PHP 7.4.12 
+  * Symfony 5.1.7 ;
+  * activer l'extenèsion PDO-MySQL PHP;
+  * MySQL 8.0.22
 
 Utilisation 
 ------------
@@ -19,41 +20,29 @@ Utilisation
 this command:
 
 ```bash
-$ git clone 
-```
-
-Alternatively, you can use Composer:
-
-```bash
-$ composer create-project symfony/symfony-demo my_project
+$ git clone https://github.com/gmokolomboka/suivi-patient.git
+$ cd suivi-patient
+$ composer install
 ```
 
 Usage
 -----
 
-There's no need to configure anything to run the application. If you have
-[installed Symfony][4] binary, run this command:
+Créer la base de données dans mysql : 
+suivi-patient 
+modifier le contenu du fichier .env avec les valeurs : <USER_BDD_MYSQL>, <PASSWORD>, <DATABASE_NAME>
+DATABASE_URL=mysql://<USER_BDD_MYSQL>:<PASSWORD>@127.0.0.1:3306/<DATABASE_NAME>?serverVersion=8.0.22
 
 ```bash
-$ cd my_project/
 $ symfony serve
 ```
 
-Then access the application in your browser at the given URL (<https://localhost:8000> by default).
+Accéder à l'application via l'url par défaut : (<https://localhost:8000).
 
 If you don't have the Symfony binary installed, run `php -S localhost:8000 -t public/`
 to use the built-in PHP web server or [configure a web server][3] like Nginx or
 Apache to run the application.
 
-Tests
------
-
-Execute this command to run tests:
-
-```bash
-$ cd my_project/
-$ ./bin/phpunit
-```
 
 [1]: https://symfony.com/doc/current/best_practices.html
 [2]: https://symfony.com/doc/current/reference/requirements.html
@@ -61,7 +50,10 @@ $ ./bin/phpunit
 [4]: https://symfony.com/download
 
 
-
+La commande 
+```bash
+$ php bin/console about
+```
 Exemple de projet développé avec Symfony 5.17 et PHP 7.4.12
 Symfony
  -------------------- ---------------------------------
