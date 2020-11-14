@@ -52,6 +52,8 @@ La commande ci-dessous permet de connaître la version de cet qui a été instal
 ```bash
 $ php bin/console about
 ```
+
+```bash
 Exemple de projet développé avec Symfony 5.17 et PHP 7.4.12
 Symfony
  -------------------- ---------------------------------
@@ -79,3 +81,4 @@ Symfony
   APCu                 false
   Xdebug               false
  -------------------- ---------------------------------
+ ```
