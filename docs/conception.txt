@@ -1,0 +1,97 @@
+
+			https://symfony.com/doc/current/reference/forms/types/choice.html
+			
+
+Survey
+firstName
+lastName
+civility (Madame, Mademoiselle, Monsieur): option
+gender (Feminin, Masculin) option
+birthDate (YYYY/MM/DD) : string
+maritalStatus (Marié(e), Divorcé(e), Veuve ou Veuf, Séparé(e)) : option
+sonsNumber (1,2,3 ...) : integer
+familyLinkWithAlzheimerPerson (Conjoint(e),enfant, autre) : option
+familyLinkWithAlzheimerPersonIfOther : string
+timePerWeekWithAlzheimerPerson : string
+doYouChangeYourLifeOrganisation (oui, non) : option
+howIsTheCare (Facile, Difficile, Variable) : option
+areYouSurrounded (Oui, Non) : option
+doYouFeelAlone (Oui, Non, Parfois) : option
+doYouKnowDrugsPrescribedForAlzheimerDisease (Oui, Non) : option
+doYouKnowExistingAssistanceAndSupportSystems (Oui, Non) : option
+doYouKnowExistingAssistanceAndSupportSystemsIfYes : string
+whatAreYouDoingTogether (Discussions, Promenades/sorties,Apprentissage,Câlins/embrassades,Jeux,Rien) : option
+doYouHavePlans(Oui,Non) : option
+doYouHavePlansIfYes (Si oui, pouvez-vous m'en dire plus sur ces projets) : string
+anyThingToAdd
+anyComments
+created
+
+VECU DE L' AIDANT
+Sexe *
+•	  FEMININ
+•	  MASCULIN
+Année de naissance *
+     
+Situation maritale *
+•	  MARIE(E)
+•	  DIVORCE(E)
+•	  VEUVE OU VEUF
+•	  SEPARE(E)
+Avez-vous des enfants? *
+•	  OUI
+•	  NON
+Si oui, combien? *
+•	  1
+•	  2
+•	  3
+•	  PLUS
+Quel est votre lien avec votre proche atteint d'Alzheimer? *
+•	  CONJOINT(E)
+•	  ENFANT
+•	  AUTRE
+Si autre, précisez: *
+ 
+Chaque semaine, combien de temps lui consacrez-vous? *
+ 
+Avez-vous du changer l'organisation de votre vie au quotidien? *
+•	  OUI
+•	  NON
+La prise en charge est-elle?
+•	  FACILE
+•	  DIFFICILE
+•	  VARIABLE
+Etes-vous entouré(e)? *
+•	  OUI
+•	  NON
+Vous sente-vous seul(e)? *
+•	  OUI
+•	  NON
+•	  PARFOIS
+Connaissez-vous les médicaments prescrits dans le cadre de la maladie d'Alzheimer? *
+•	  OUI
+•	  NON
+
+Connaissez-vous les dispositifs d'aide, d'accompagnement existants? *
+•	
+
+•	  NON
+•	  OUI
+•	Si oui, lesquels : __________________________________________________________
+Que faites-vous ensemble ?
+-   Discussions
+-   Promenades/sorties
+-   Apprentissage
+-   Câlins/embrassades
+-   Jeux
+-   Rien
+
+Avez-vous des projets? *
+•	  OUI
+•	  NON
+Si oui, pouvez-vous m'en dire plus sur ces projets?
+ 
+
+ 
+N'envoyez jamais de mots de passe via Google Forms.
+

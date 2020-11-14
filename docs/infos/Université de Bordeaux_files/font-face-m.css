@@ -1,0 +1,24 @@
+@import url("//hello.myfonts.net/count/285e36");
+@font-face {
+    font-family: "Brix Slab";
+    src: url("../fonts/285E36_6_0.eot");
+    src: url("../fonts/285E36_6_0.eot?#iefix") format("embedded-opentype"), url("../fonts/285E36_6_0.woff") format("woff"), url("../fonts/285E36_6_0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Brix Slab Italic";
+    src: url("../fonts/285E36_3_0.eot");
+    src: url("../fonts/285E36_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/285E36_3_0.woff") format("woff"), url("../fonts/285E36_3_0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Brix Slab Medium Italic";
+    src: url("../fonts/285E36_1_0.eot");
+    src: url("../fonts/285E36_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/285E36_1_0.woff") format("woff"), url("../fonts/285E36_1_0.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Brix Slab Light Italic";
+    src: url("../fonts/285E36_5_0.eot");
+    src: url("../fonts/285E36_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/285E36_5_0.woff") format("woff"), url("../fonts/285E36_5_0.ttf") format("truetype");
+}
