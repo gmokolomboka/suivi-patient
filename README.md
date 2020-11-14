@@ -8,10 +8,17 @@ Cette application est basée sur  https://rojas.io/creating-a-website-with-symfo
 Prérequis
 ------------
 
-  * PHP 7.4.12 
-  * Symfony 5.1.7 ;
-  * activer l'extenèsion PDO-MySQL PHP;
-  * MySQL 8.0.22
+  * PHP 7.4.12  (https://www.php.net/downloads.php#v7.4.12)
+  * Symfony 5.1.7 (https://symfony.com/download)
+  * activer l'extenèsion PDO-MySQL PHP dans le fichier php.ini
+  * MySQL 8.0.22 (https://dev.mysql.com/downloads/mysql/5.5.html?os=3&version=5)
+
+* Modification du fichier php.ini
+----------------------------------
+* Avant 
+;extension=pdo_mysql
+* Après
+extension=pdo_mysql
 
 Utilisation 
 ------------
